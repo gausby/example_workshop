@@ -3,10 +3,10 @@ defmodule Workshop.Exercise.HelloWorldCheck do
 
   verify "should say hello" do
     cond do
-      Hello.say == "hello, world!" ->
+      Greeter.hello == "Hello, world!" ->
         :ok
       :otherwise ->
-        {:error, "It didn't say \"hello, world!\", it said: #{inspect Hello.say}"}
+        {:error, "It didn't say \"Hello, world!\", it said: #{inspect Greeter.hello}"}
     end
   end
 end

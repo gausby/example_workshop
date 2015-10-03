@@ -24,24 +24,26 @@ defmodule Workshop.Meta do
   # The description should state what the user will learn from this workshop.
   # Perhaps mention the intended audience.
   @description """
-  Describe the workshop here.
+  This is an example workshop showing this workshop system of mine to people who
+  are interested.
   """
 
   # The introduction should welcome the user to the workshop, set the
   # expectations, and inform the user to execute the next-command to get to the
   # first exercise.
   @introduction """
-  This is the introduction and it will get displayed when the workshop has been
-  started.
-
-  Don't forget to inform the user to write `mix workshop.next` to get to the
-  first exercise.
+  This is an interactive exercise. You get information that should make it possible
+  to solve a task, and the system should be able to check your solution. When you
+  are done with an exercise you should get presented with a new exercise.
   """
 
   # The debriefing message will get shown when the workshop is over.
   # This would be a good opportunity to congratulate the user; perhaps thank the
   # user and; and ask for feedback.
   @debriefing """
-  You have completed the last exercise. Congratulations!
+  Congratulations. You made it all the way through the workshop, and you should now
+  be able to write hello world and do math in Elixir.
+
+  Thank you for doing this workshop.
   """
 end

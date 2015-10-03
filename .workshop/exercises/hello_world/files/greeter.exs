@@ -1,5 +1,5 @@
 defmodule Greeter do
   def hello do
-    "Hello, world!"
+    # make me do stuff
   end
 end
